@@ -33,7 +33,7 @@ pygmentsUseClasses = true
     pagerDirection = "last"
     createIssueManually = true
     distractionFreeMode = false
-    proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"
+    proxy = "https://cors-anywhere.ekocahyo.workers.dev/https://github.com/login/oauth/access_token"
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
