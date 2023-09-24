@@ -1,0 +1,39 @@
+baseURL = "https://www.ekocahyo.web.id"
+languageCode = "en-US"
+title = "Eko Cahyo"
+theme = "github-style"
+googleAnalytics = "G-M5P9P004BD"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Mochammad Eko Cahyo Susanto"
+  description = "Hi everybody. I just want to say \"Hello World\"👋🏼"
+  github = "ekocahyo"
+  email = "ekocahyo27@gmail.com"
+  url = "https://www.ekocahyo.web.id"
+  keywords = "blog, eko cahyo, devops, infra, sysadmin"
+  rss = true
+  lastmod = true
+  favicon = "/images/github.png"
+  avatar = "/images/avatar.jpeg"
+  location = "Surabaya"
+  userStatusEmoji = "👋🏼"
+  enableGitalk = true
+    
+  [params.gitalk]
+    clientID = "19a063cd6c1fafa554ec"
+    clientSecret = "35f266391d812f237f2ad7b1a97fba2f15e62c4e"
+    repo = "ekocahyo"
+    owner = "ekocahyo"
+    admin = "ekocahyo"
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 15
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
+    proxy = "https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
