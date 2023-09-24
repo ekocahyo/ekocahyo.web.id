@@ -24,7 +24,7 @@ pygmentsUseClasses = true
   [params.gitalk]
     clientID = "19a063cd6c1fafa554ec"
     clientSecret = "35f266391d812f237f2ad7b1a97fba2f15e62c4e"
-    repo = "ekocahyo"
+    repo = "ekocahyo.web.id"
     owner = "ekocahyo"
     admin = "ekocahyo"
     id = "location.pathname"
